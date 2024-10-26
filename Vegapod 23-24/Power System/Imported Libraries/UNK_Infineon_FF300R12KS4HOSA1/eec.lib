@@ -1,0 +1,86 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Infineon FF300R12KS4HOSA1
+#
+DEF FF300R12KS4HOSA1 MD 0 40 Y Y 1 L N
+F0 "MD" 0 700 50 H V L CNN 
+F1 "FF300R12KS4HOSA1" 0 800 50 H V L CNN 
+F2 "Infineon-FF300R12KS4HOSA1-*" 0 900 50 H I L CNN 
+F3 "https://www.infineon.com/dgdl/Infineon-FF300R12KS4-DS-v03_02-en_cn.pdf?fileId=db3a30433dd42dcf013dd530e70c0256" 0 1000 50 H I L CNN 
+F4 "No" 0 1100 50 H I L CNN "automotive"
+F5 "UNK" 0 1200 50 H I L CNN "category"
+F6 "300A" 0 1300 50 H I L CNN "collector current"
+F7 "3.2V" 0 1400 50 H I L CNN "collector emitter saturation voltage"
+F8 "1200V" 0 1500 50 H I L CNN "collector emitter voltage"
+F9 "Discrete Semiconductors" 0 1600 50 H I L CNN "device class L1"
+F10 "Transistors" 0 1700 50 H I L CNN "device class L2"
+F11 "IGBTs" 0 1800 50 H I L CNN "device class L3"
+F12 "IGBT MOD 1200V 370A 1950W" 0 1900 50 H I L CNN "digikey description"
+F13 "FF300R12KS4HOSA1-ND" 0 2000 50 H I L CNN "digikey part number"
+F14 "31.4mm" 0 2100 50 H I L CNN "height"
+F15 "Yes" 0 2200 50 H I L CNN "lead free"
+F16 "c0e60f33f785177d" 0 2300 50 H I L CNN "library id"
+F17 "Infineon" 0 2400 50 H I L CNN "manufacturer"
+F18 "+125°C" 0 2500 50 H I L CNN "max junction temp"
+F19 "641-FF300R12KS4" 0 2600 50 H I L CNN "mouser part number"
+F20 "MD_106MM4_61MM4" 0 2700 50 H I L CNN "package"
+F21 "1950W" 0 2800 50 H I L CNN "power dissipation"
+F22 "Yes" 0 2900 50 H I L CNN "rohs"
+F23 "+125°C" 0 3000 50 H I L CNN "temperature range high"
+F24 "-40°C" 0 3100 50 H I L CNN "temperature range low"
+F25 "0.53us" 0 3200 50 H I L CNN "turn off delay time"
+F26 "0.1us" 0 3300 50 H I L CNN "turn on delay time"
+DRAW
+P 2 1 1 0 20 -390 80 -400 N
+P 2 1 1 0 40 -360 80 -400 N
+P 2 1 1 0 20 -390 40 -360 N
+P 2 1 1 0 -20 -250 80 -200 N
+P 2 1 1 0 -20 -350 80 -400 N
+P 2 1 1 0 -80 -200 -80 -400 N
+P 2 1 1 0 -20 -200 -20 -400 N
+P 2 1 1 0 -20 -300 -20 -300 N
+P 2 1 1 0 -80 200 -80 200 N
+P 2 1 1 0 -20 200 -20 200 N
+P 2 1 1 0 -20 350 80 400 N
+P 2 1 1 0 80 400 80 400 N
+P 2 1 1 0 40 240 40 240 N
+P 2 1 1 0 20 210 20 210 N
+P 2 1 1 0 -80 400 -80 200 N
+P 2 1 1 0 -80 200 -80 200 N
+P 2 1 1 0 -20 400 -20 200 N
+P 2 1 1 0 -20 200 -20 200 N
+P 2 1 1 0 -20 350 -20 350 N
+P 2 1 1 0 -20 250 80 200 N
+P 2 1 1 0 40 240 20 210 N
+P 2 1 1 0 20 210 80 200 N
+P 2 1 1 0 80 200 40 240 N
+P 2 1 1 0 40 240 40 240 N
+P 2 1 1 0 180 450 180 150 N
+P 2 1 1 0 180 -150 180 -450 N
+P 2 1 1 0 180 320 150 270 N
+P 2 1 1 0 210 270 180 320 N
+P 2 1 1 0 170 280 190 280 N
+P 2 1 1 0 180 450 80 450 N
+P 2 1 1 0 80 600 80 400 N
+P 2 1 1 0 180 150 80 150 N
+P 2 1 1 0 150 -280 210 -280 N
+P 2 1 1 0 150 270 210 270 N
+P 2 1 1 0 80 200 80 -200 N
+P 2 1 1 0 80 -400 80 -600 N
+P 2 1 1 0 -220 0 80 0 N
+P 2 1 1 0 -220 300 -80 300 N
+P 2 1 1 0 -220 -300 -80 -300 N
+P 2 1 1 0 150 320 210 320 N
+P 2 1 1 0 210 320 210 320 N
+P 2 1 1 0 150 -330 210 -330 N
+P 2 1 1 0 210 -330 180 -280 N
+P 2 1 1 0 180 -280 150 -330 N
+P 2 1 1 0 170 -320 200 -320 N
+P 2 1 1 0 180 -150 80 -150 N
+P 2 1 1 0 180 -450 80 -450 N
+C 80 0 10 1 1 0 N
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1ED3322MC12NXUMA1
+D Single-channel 5.7 kV (rms) isolated gate driver IC with DESAT and soft-of
+K
+F https://www.infineon.com/dgdl/Infineon-1ED332xMC12N-DataSheet-v01_01-EN.pdf?fileId=8ac78c8c7ddc01d7017e49e76a311599
+$ENDCMP
+#
+#End Doc Library
