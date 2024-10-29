@@ -1,37 +1,29 @@
 #include <WiFi.h>
 #include <esp_now.h>
 
-int relayPin = 2;
-typedef struct struct_message {
-  bool estop;
-} struct_message;
+int brakePin = 5;  
 
-struct_message estopData;
 
 void onDataRecv(const uint8_t *mac, const uint8_t *incomingData, int len) {
-  memcpy(&estopData, incomingData, sizeof(estopData));
-  
-  if (estopData.estop) {
-    digitalWrite(relayPin, HIGH);
-    Serial.println("E-Stop activated!");
-  } else {
-    digitalWrite(relayPin, LOW); 
-    Serial.println("System running normally.");
+  if (incomingData[0] == 0x01) {
+    Serial.println("Emergency Stop Command Received - Activating Brakes");
+    digitalWrite(brakePin, LOW); 
   }
 }
 
 void setup() {
   Serial.begin(115200);
 
-  pinMode(relayPin, OUTPUT);
-  digitalWrite(relayPin, LOW); 
+  pinMode(brakePin, OUTPUT);
+  digitalWrite(brakePin, HIGH); 
+
 
   WiFi.mode(WIFI_STA);
-
   if (esp_now_init() != ESP_OK) {
     Serial.println("Error initializing ESP-NOW");
     return;
   }
+
 
   esp_now_register_recv_cb(onDataRecv);
 }
